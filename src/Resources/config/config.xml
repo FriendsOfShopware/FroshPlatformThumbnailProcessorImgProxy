@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>Configuration</title>
+
+        <input-field>
+            <name>Domain</name>
+            <label>Domain</label>
+            <placeholder>https://imgproxy.example.com/</placeholder>
+        </input-field>
+
+        <input-field>
+            <name>imgproxykey</name>
+            <label>KEY</label>
+        </input-field>
+
+        <input-field>
+            <name>imgproxysalt</name>
+            <label>SALT</label>
+        </input-field>
+
+        <input-field>
+            <name>resizingType</name>
+            <label>resizing_type</label>
+            <defaultValue>fit</defaultValue>
+            <placeholder>fit</placeholder>
+        </input-field>
+
+        <input-field>
+            <name>gravity</name>
+            <label>gravity</label>
+            <defaultValue>sm</defaultValue>
+            <placeholder>sm</placeholder>
+        </input-field>
+
+        <input-field type="bool">
+            <name>enlarge</name>
+            <label>enlarge</label>
+            <defaultValue>0</defaultValue>
+            <placeholder>0</placeholder>
+        </input-field>
+
+        <input-field type="int">
+            <name>signatureSize</name>
+            <label>signature size</label>
+            <defaultValue>32</defaultValue>
+            <placeholder>32</placeholder>
+        </input-field>
+
+    </card>
+</config>
